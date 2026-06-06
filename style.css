@@ -289,4 +289,36 @@ ul li a{
             .nav-list.active{
                 margin-left: 0;
             }
+            .header-content{
+                width: 90%;
+            }
+            .header-content h1{
+                font-size: 2rem;
+            }
+            .title{
+                max-width: 100%;
+            }
+            .grid{
+                justify-content: center;
+            }
+            .customer-wrapper img{
+                margin-top: 20px;
+            }
+            .ctn-wrapper {
+            flex-direction: column;
+            }
+            .ctn-wrapper h2{
+                font-size: 20px;
+            }
+            .ctn-wrapper .text{
+                margin-bottom: 15px;
+                width: 90%;
+            }
+            footer .container{
+                grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+            }
+            footer .col{
+                margin-bottom: 30px;
+            }
         }
+        
