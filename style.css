@@ -178,4 +178,28 @@ ul li a{
     .review h4{
         font-size: 14px;
     }
+    /* getstarted */
+    .getstarted{
+        margin: 60px auto;
+        width: 80%;
+
+        }
+        .ctn-wrapper{
+            display: flex;
+            box-shadow: 4px 4px 4px 4px #0000ff2b;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 40px;
+        }
+        .ctn-wrapper .btn{
+            height: 50px;
+        }
+        .ctn-wrapper .text{
+            width: 80%;
+        }
+        .ctn-wrapper .text h2{
+            color: var(--lightblue);
+            margin-bottom: 10px;
+        }
    
