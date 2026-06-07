@@ -266,7 +266,8 @@ ul li a{
         /* Mobile Device */
         @media only screen and (max-width:768px){
             .menuBar{
-                display: block;   
+                display: block; 
+                z-index: 999;  
             }
             .logo img{
                 width: 150px;
@@ -281,6 +282,7 @@ ul li a{
               position: absolute;
               margin-left: -900px;
               transition: margin 0.8s ease-in-out;
+              z-index: 999;
               
             }
             .nav-item{
